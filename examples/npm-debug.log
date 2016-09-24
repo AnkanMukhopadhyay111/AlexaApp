@@ -1,0 +1,326 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'alexa-app-server',
+1 verbose cli   'chai',
+1 verbose cli   'chai-as-promised',
+1 verbose cli   'mocha',
+1 verbose cli   'lodash',
+1 verbose cli   'request-promise' ]
+2 info using npm@3.10.5
+3 info using node@v0.12.13
+4 verbose node symlink /usr/bin/node
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData alexa-app-server
+9 silly fetchPackageMetaData chai
+10 silly fetchPackageMetaData chai-as-promised
+11 silly fetchPackageMetaData mocha
+12 silly fetchPackageMetaData lodash
+13 silly fetchPackageMetaData request-promise
+14 silly fetchNamedPackageData alexa-app-server
+15 silly mapToRegistry name alexa-app-server
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data { raw: 'alexa-app-server',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   escapedName: 'alexa-app-server',
+18 silly mapToRegistry   name: 'alexa-app-server',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/alexa-app-server
+20 silly fetchNamedPackageData chai
+21 silly mapToRegistry name chai
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry data { raw: 'chai',
+24 silly mapToRegistry   scope: null,
+24 silly mapToRegistry   escapedName: 'chai',
+24 silly mapToRegistry   name: 'chai',
+24 silly mapToRegistry   rawSpec: '',
+24 silly mapToRegistry   spec: 'latest',
+24 silly mapToRegistry   type: 'tag' }
+25 silly mapToRegistry uri https://registry.npmjs.org/chai
+26 silly fetchNamedPackageData chai-as-promised
+27 silly mapToRegistry name chai-as-promised
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data { raw: 'chai-as-promised',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'chai-as-promised',
+30 silly mapToRegistry   name: 'chai-as-promised',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/chai-as-promised
+32 silly fetchNamedPackageData mocha
+33 silly mapToRegistry name mocha
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry data { raw: 'mocha',
+36 silly mapToRegistry   scope: null,
+36 silly mapToRegistry   escapedName: 'mocha',
+36 silly mapToRegistry   name: 'mocha',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri https://registry.npmjs.org/mocha
+38 silly fetchNamedPackageData lodash
+39 silly mapToRegistry name lodash
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry data { raw: 'lodash',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   escapedName: 'lodash',
+42 silly mapToRegistry   name: 'lodash',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri https://registry.npmjs.org/lodash
+44 silly fetchNamedPackageData request-promise
+45 silly mapToRegistry name request-promise
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data { raw: 'request-promise',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'request-promise',
+48 silly mapToRegistry   name: 'request-promise',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/request-promise
+50 verbose request uri https://registry.npmjs.org/alexa-app-server
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 2:37:56 PM
+53 verbose request id 540ed67c1fdcf901
+54 verbose etag "6P3HXZX9H6SCA5FPVSSU86T2Z"
+55 http request GET https://registry.npmjs.org/alexa-app-server
+56 verbose request uri https://registry.npmjs.org/chai-as-promised
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 2:37:56 PM
+59 verbose etag "FKYJFM7VQ1NYED75GIENAXGG"
+60 http request GET https://registry.npmjs.org/chai-as-promised
+61 verbose request uri https://registry.npmjs.org/mocha
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 2:37:56 PM
+64 verbose etag "8POSDV2PQFSJTCXVUSOFHBF5E"
+65 http request GET https://registry.npmjs.org/mocha
+66 verbose request uri https://registry.npmjs.org/lodash
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 2:37:56 PM
+69 verbose etag "V1158IMHZO8F0DS1L4PKN8TV"
+70 http request GET https://registry.npmjs.org/lodash
+71 verbose request uri https://registry.npmjs.org/request-promise
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 2:37:56 PM
+74 verbose etag "7D616QXK7V31QVYTUNQ3HJPE4"
+75 http request GET https://registry.npmjs.org/request-promise
+76 verbose request uri https://registry.npmjs.org/chai
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 2:37:56 PM
+79 verbose etag "9AU81YPR59BZJ12WG878SBM53"
+80 http request GET https://registry.npmjs.org/chai
+81 http 304 https://registry.npmjs.org/alexa-app-server
+82 verbose headers { date: 'Tue, 16 Aug 2016 09:07:57 GMT',
+82 verbose headers   via: '1.1 varnish',
+82 verbose headers   'cache-control': 'max-age=300',
+82 verbose headers   etag: '"6P3HXZX9H6SCA5FPVSSU86T2Z"',
+82 verbose headers   age: '14',
+82 verbose headers   connection: 'keep-alive',
+82 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+82 verbose headers   'x-cache': 'HIT',
+82 verbose headers   'x-cache-hits': '1',
+82 verbose headers   'x-timer': 'S1471338477.713607,VS0,VE0',
+82 verbose headers   vary: 'Accept-Encoding' }
+83 silly get cb [ 304,
+83 silly get   { date: 'Tue, 16 Aug 2016 09:07:57 GMT',
+83 silly get     via: '1.1 varnish',
+83 silly get     'cache-control': 'max-age=300',
+83 silly get     etag: '"6P3HXZX9H6SCA5FPVSSU86T2Z"',
+83 silly get     age: '14',
+83 silly get     connection: 'keep-alive',
+83 silly get     'x-served-by': 'cache-sin6922-SIN',
+83 silly get     'x-cache': 'HIT',
+83 silly get     'x-cache-hits': '1',
+83 silly get     'x-timer': 'S1471338477.713607,VS0,VE0',
+83 silly get     vary: 'Accept-Encoding' } ]
+84 verbose etag https://registry.npmjs.org/alexa-app-server from cache
+85 verbose get saving alexa-app-server to /home/tech03/.npm/registry.npmjs.org/alexa-app-server/.cache.json
+86 verbose correctMkdir /home/tech03/.npm correctMkdir not in flight; initializing
+87 http 304 https://registry.npmjs.org/mocha
+88 verbose headers { date: 'Tue, 16 Aug 2016 09:07:57 GMT',
+88 verbose headers   via: '1.1 varnish',
+88 verbose headers   'cache-control': 'max-age=300',
+88 verbose headers   etag: '"8POSDV2PQFSJTCXVUSOFHBF5E"',
+88 verbose headers   age: '185',
+88 verbose headers   connection: 'keep-alive',
+88 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+88 verbose headers   'x-cache': 'HIT',
+88 verbose headers   'x-cache-hits': '7',
+88 verbose headers   'x-timer': 'S1471338477.711620,VS0,VE0',
+88 verbose headers   vary: 'Accept-Encoding' }
+89 silly get cb [ 304,
+89 silly get   { date: 'Tue, 16 Aug 2016 09:07:57 GMT',
+89 silly get     via: '1.1 varnish',
+89 silly get     'cache-control': 'max-age=300',
+89 silly get     etag: '"8POSDV2PQFSJTCXVUSOFHBF5E"',
+89 silly get     age: '185',
+89 silly get     connection: 'keep-alive',
+89 silly get     'x-served-by': 'cache-sin6921-SIN',
+89 silly get     'x-cache': 'HIT',
+89 silly get     'x-cache-hits': '7',
+89 silly get     'x-timer': 'S1471338477.711620,VS0,VE0',
+89 silly get     vary: 'Accept-Encoding' } ]
+90 verbose etag https://registry.npmjs.org/mocha from cache
+91 verbose get saving mocha to /home/tech03/.npm/registry.npmjs.org/mocha/.cache.json
+92 verbose correctMkdir /home/tech03/.npm correctMkdir already in flight; waiting
+93 http 304 https://registry.npmjs.org/request-promise
+94 verbose headers { date: 'Tue, 16 Aug 2016 09:07:57 GMT',
+94 verbose headers   via: '1.1 varnish',
+94 verbose headers   'cache-control': 'max-age=300',
+94 verbose headers   etag: '"7D616QXK7V31QVYTUNQ3HJPE4"',
+94 verbose headers   age: '137',
+94 verbose headers   connection: 'keep-alive',
+94 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+94 verbose headers   'x-cache': 'HIT',
+94 verbose headers   'x-cache-hits': '1',
+94 verbose headers   'x-timer': 'S1471338477.723793,VS0,VE0',
+94 verbose headers   vary: 'Accept-Encoding' }
+95 silly get cb [ 304,
+95 silly get   { date: 'Tue, 16 Aug 2016 09:07:57 GMT',
+95 silly get     via: '1.1 varnish',
+95 silly get     'cache-control': 'max-age=300',
+95 silly get     etag: '"7D616QXK7V31QVYTUNQ3HJPE4"',
+95 silly get     age: '137',
+95 silly get     connection: 'keep-alive',
+95 silly get     'x-served-by': 'cache-sin6927-SIN',
+95 silly get     'x-cache': 'HIT',
+95 silly get     'x-cache-hits': '1',
+95 silly get     'x-timer': 'S1471338477.723793,VS0,VE0',
+95 silly get     vary: 'Accept-Encoding' } ]
+96 verbose etag https://registry.npmjs.org/request-promise from cache
+97 verbose get saving request-promise to /home/tech03/.npm/registry.npmjs.org/request-promise/.cache.json
+98 verbose correctMkdir /home/tech03/.npm correctMkdir not in flight; initializing
+99 http 304 https://registry.npmjs.org/lodash
+100 verbose headers { date: 'Tue, 16 Aug 2016 09:07:58 GMT',
+100 verbose headers   via: '1.1 varnish',
+100 verbose headers   'cache-control': 'max-age=300',
+100 verbose headers   etag: '"V1158IMHZO8F0DS1L4PKN8TV"',
+100 verbose headers   age: '70',
+100 verbose headers   connection: 'keep-alive',
+100 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+100 verbose headers   'x-cache': 'HIT',
+100 verbose headers   'x-cache-hits': '27',
+100 verbose headers   'x-timer': 'S1471338478.192673,VS0,VE0',
+100 verbose headers   vary: 'Accept-Encoding' }
+101 silly get cb [ 304,
+101 silly get   { date: 'Tue, 16 Aug 2016 09:07:58 GMT',
+101 silly get     via: '1.1 varnish',
+101 silly get     'cache-control': 'max-age=300',
+101 silly get     etag: '"V1158IMHZO8F0DS1L4PKN8TV"',
+101 silly get     age: '70',
+101 silly get     connection: 'keep-alive',
+101 silly get     'x-served-by': 'cache-sin6922-SIN',
+101 silly get     'x-cache': 'HIT',
+101 silly get     'x-cache-hits': '27',
+101 silly get     'x-timer': 'S1471338478.192673,VS0,VE0',
+101 silly get     vary: 'Accept-Encoding' } ]
+102 verbose etag https://registry.npmjs.org/lodash from cache
+103 verbose get saving lodash to /home/tech03/.npm/registry.npmjs.org/lodash/.cache.json
+104 verbose correctMkdir /home/tech03/.npm correctMkdir not in flight; initializing
+105 http 304 https://registry.npmjs.org/chai-as-promised
+106 verbose headers { date: 'Tue, 16 Aug 2016 09:07:58 GMT',
+106 verbose headers   via: '1.1 varnish',
+106 verbose headers   'cache-control': 'max-age=300',
+106 verbose headers   etag: '"FKYJFM7VQ1NYED75GIENAXGG"',
+106 verbose headers   age: '54',
+106 verbose headers   connection: 'keep-alive',
+106 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+106 verbose headers   'x-cache': 'HIT',
+106 verbose headers   'x-cache-hits': '1',
+106 verbose headers   'x-timer': 'S1471338478.210417,VS0,VE0',
+106 verbose headers   vary: 'Accept-Encoding' }
+107 silly get cb [ 304,
+107 silly get   { date: 'Tue, 16 Aug 2016 09:07:58 GMT',
+107 silly get     via: '1.1 varnish',
+107 silly get     'cache-control': 'max-age=300',
+107 silly get     etag: '"FKYJFM7VQ1NYED75GIENAXGG"',
+107 silly get     age: '54',
+107 silly get     connection: 'keep-alive',
+107 silly get     'x-served-by': 'cache-sin6927-SIN',
+107 silly get     'x-cache': 'HIT',
+107 silly get     'x-cache-hits': '1',
+107 silly get     'x-timer': 'S1471338478.210417,VS0,VE0',
+107 silly get     vary: 'Accept-Encoding' } ]
+108 verbose etag https://registry.npmjs.org/chai-as-promised from cache
+109 verbose get saving chai-as-promised to /home/tech03/.npm/registry.npmjs.org/chai-as-promised/.cache.json
+110 verbose correctMkdir /home/tech03/.npm correctMkdir not in flight; initializing
+111 http 304 https://registry.npmjs.org/chai
+112 verbose headers { date: 'Tue, 16 Aug 2016 09:07:58 GMT',
+112 verbose headers   via: '1.1 varnish',
+112 verbose headers   'cache-control': 'max-age=300',
+112 verbose headers   etag: '"9AU81YPR59BZJ12WG878SBM53"',
+112 verbose headers   age: '177',
+112 verbose headers   connection: 'keep-alive',
+112 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+112 verbose headers   'x-cache': 'HIT',
+112 verbose headers   'x-cache-hits': '6',
+112 verbose headers   'x-timer': 'S1471338478.460297,VS0,VE0',
+112 verbose headers   vary: 'Accept-Encoding' }
+113 silly get cb [ 304,
+113 silly get   { date: 'Tue, 16 Aug 2016 09:07:58 GMT',
+113 silly get     via: '1.1 varnish',
+113 silly get     'cache-control': 'max-age=300',
+113 silly get     etag: '"9AU81YPR59BZJ12WG878SBM53"',
+113 silly get     age: '177',
+113 silly get     connection: 'keep-alive',
+113 silly get     'x-served-by': 'cache-sin6923-SIN',
+113 silly get     'x-cache': 'HIT',
+113 silly get     'x-cache-hits': '6',
+113 silly get     'x-timer': 'S1471338478.460297,VS0,VE0',
+113 silly get     vary: 'Accept-Encoding' } ]
+114 verbose etag https://registry.npmjs.org/chai from cache
+115 verbose get saving chai to /home/tech03/.npm/registry.npmjs.org/chai/.cache.json
+116 verbose correctMkdir /home/tech03/.npm correctMkdir not in flight; initializing
+117 silly install normalizeTree
+118 silly loadCurrentTree Finishing
+119 silly loadIdealTree Starting
+120 silly install loadIdealTree
+121 silly cloneCurrentTree Starting
+122 silly install cloneCurrentTreeToIdealTree
+123 silly cloneCurrentTree Finishing
+124 silly loadShrinkwrap Starting
+125 silly install loadShrinkwrap
+126 silly loadShrinkwrap Finishing
+127 silly loadAllDepsIntoIdealTree Starting
+128 silly install loadAllDepsIntoIdealTree
+129 silly rollbackFailedOptional Starting
+130 silly rollbackFailedOptional Finishing
+131 silly runTopLevelLifecycles Starting
+132 silly runTopLevelLifecycles Finishing
+133 silly install printInstalled
+134 verbose stack Error: Refusing to install alexa-app-server as a dependency of itself
+134 verbose stack     at checkSelf (/usr/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+134 verbose stack     at Array.<anonymous> (/usr/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+134 verbose stack     at LOOP (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+134 verbose stack     at chain (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+134 verbose stack     at /usr/lib/node_modules/npm/lib/install/validate-args.js:16:5
+134 verbose stack     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+134 verbose stack     at Array.forEach (native)
+134 verbose stack     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+134 verbose stack     at Array.forEach (native)
+134 verbose stack     at asyncMap (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+135 verbose cwd /home/tech03/alexa-app-server/examples
+136 error Linux 3.19.0-33-generic
+137 error argv "node" "/usr/bin/npm" "install" "--save" "alexa-app-server" "chai" "chai-as-promised" "mocha" "lodash" "request-promise"
+138 error node v0.12.13
+139 error npm  v3.10.5
+140 error code ENOSELF
+141 error Refusing to install alexa-app-server as a dependency of itself
+142 error If you need help, you may report this error at:
+142 error     <https://github.com/npm/npm/issues>
+143 verbose exit [ 1, true ]
